@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        string filePath = Path.Combine("C:\\Users\\andsu\\source\\repos\\GroupEvaluation\\GroupEvaluation\\answers.json");
+        string filePath = "C:\\Users\\andsu\\source\\repos\\GroupEvaluation\\GroupEvaluation\\answers.json";
         if (File.Exists(filePath))
         {
             string json = File.ReadAllText(filePath);
